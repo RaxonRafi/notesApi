@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npx nodemon index.js",
-    "test": "jest"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -27,9 +27,6 @@
     "mysql": "^2.18.1",
     "nodemon": "^2.0.20",
     "xss-clean": "^0.1.1"
-  },
-  "devDependencies": {
-    "jest": "^29.7.0",
-    "supertest": "^6.3.3"
   }
+ 
 }
